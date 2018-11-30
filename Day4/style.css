@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+}
+
+/*div {
+    border: 1px solid grey;
+}*/
+
+.my_btn_color {
+    color: white;
+    background-color: blue;
+    border-color: black;
+}
+
+.my_jumbotron_color {
+    background-color: yellowgreen;
+}
+
