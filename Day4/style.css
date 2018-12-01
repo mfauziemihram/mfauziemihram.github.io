@@ -16,7 +16,20 @@ h1 {
     border-color: black;
 }
 
-.my_jumbotron_color {
-    background-color: yellowgreen;
+.my_link:hover {
+    text-decoration: none;
 }
+
+.general_spacing {
+    margin-bottom: 80px;
+}
+
+.navbar_logo {
+    width: 50px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
 
