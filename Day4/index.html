@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <!--CSS Files-->
+    <!--List of CSS Files-->
+    <!--General Font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+    <!--My Custom CSS-->
     <link rel="stylesheet" href="style.css">
     
     <title>Document</title>
 </head>
 <body>
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Navbar</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -24,6 +30,7 @@
             </div>
         </div>
     </nav>
+    -->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -75,34 +82,119 @@
                 </div>
             </div>
         </div>
-
+        <hr>
         <div class="row">
             <div class="col-md-6">
-                row 4 col 1
+                <!--<h2>Sign Up Here</h2>
+                <hr>-->
+                <form action="">
+                    <legend>Sign Up Here</legend>
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control" name="" id="" placeholder="Input your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" name="" id="" placeholder="Input your email">
+                    </div>
+                    <div class="form-group">
+                    <div class="radio">
+                        <label for="">
+                            <input type="radio" name="newsletter_request" id="" checked>
+                            Send me weekly newsletters
+                        </label>
+                    </div>
+                    </div>
+                    <div class="radio">
+                        <label for="">
+                            <input type="radio" name="newsletter_request" id="">
+                            Don't send me weekly newsletters
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                </form>
             </div>
-            <div class="col-md-6">
-                row 4 col 2
+            <div class="col-md-6 text-center">
+                <h2>lorem ipsum</h2>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolor nostrum deserunt asperiores cumque non modi? 
+                    Neque aperiam, facilis pariatur deleniti corrupti, 
+                    labore impedit facere distinctio veniam quod numquam ab possimus.
+                </p>
             </div>
         </div>
-
+        <hr>
         <div class="row">
             <div class="col-md-4">
-                row 5 col 1
+                <h3 class="text-center">Opening Hours</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <th>Day</th><th>Hours</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday to Thursday</td> <td>9am - 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday and Saturday</td> <td>11am - 3pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td><td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="col-md-4">
-                row 5 col 2
+                <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7945112685466!2d103.78525561467012!3d1.2980153990532766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fed92dc05%3A0x729440ee2c86a913!2s79+Ayer+Rajah+Crescent%2C+Singapore+139955!5e0!3m2!1sen!2ssg!4v1543631790852"></iframe>
+                </div>
             </div>
             <div class="col-md-4">
-                row 5 col 3
+                <h3>Contact Us</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                    <a href="tel:+65 9876 5432"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;+65 9876 5432</a>
+                    </li>
+                    <li class="list-group-item">
+                    <a href="mailto:rob.martins@edmiraltek.com">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;rob.martins@edmiraltek.com
+                    </a>
+                    </li>
+                </ul>
             </div>
         </div>
-
+        <hr>
         <div class="row">
-            <div class="col-md-12">
-                row 6 col 1
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="">
+                        <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <i class="fa fa-snapchat fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <i class="fa fa-google fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-
+    
     </div>
 
 </body>
