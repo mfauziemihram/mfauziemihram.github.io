@@ -1,27 +1,35 @@
-body{
-    
+body {
+    font-family: 'Roboto', sans-serif;
 }
-.index_header{
-   
-}
-.index_header_text1{
-    margin: auto;
-    color: black;
-    width: 17em;
-    font-size: 0.5em;
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
-.index_header_text2{
-    margin: auto;
-    color: black;
-    width: 17em;
-    font-size: 0.7em;
+/*div {
+    border: 1px solid grey;
+}*/
+
+.my_btn_color {
+    color: white;
+    background-color: blue;
+    border-color: black;
 }
 
-.header-container{
-    background-image: ;
+.my_link:hover {
+    text-decoration: none;
 }
 
-.profile_photos {
-    height: 2em;
+.general_spacing {
+    margin-bottom: 80px;
 }
+
+.navbar_logo {
+    width: 50px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+
