@@ -25,11 +25,34 @@ firstName = "Rob";
 lastName = "Martins";
 var space = " ";
 var fullName = firstName + space + lastName;
-
 console.log(fullName);
 
 var qty = 2;
 var total = 200;
 var qtyTotal = qty + total;
-
 console.log(qtyTotal);
+
+var firstNumber = 10;
+var secondNumber = "10";
+var totalNumber = firstNumber * secondNumber;
+console.log(totalNumber);
+
+var compareResult = (firstNumber != secondNumber);
+console.log(compareResult);
+
+var compareResult;
+compareResult = (firstNumber == secondNumber);
+console.log(compareResult);
+
+compareResult = (firstNumber === secondNumber);
+console.log(compareResult);
+
+var testA = "Singapore";
+var testB = "Singapore";
+var compareTest = (testA != testB);
+console.log(compareTest);
+
+var myHtmlValue;
+myHtmlValue = document.getElementById("myName").value;
+console.log(myHtmlValue);
+
