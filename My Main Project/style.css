@@ -3,7 +3,7 @@ body {
 }
 h1 {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: black;
 }
 
 /*div {
@@ -35,5 +35,14 @@ h1 {
 .jumbotron {
     background-color: #5d001e;
     color: #fff;
+    width: 100%;
+}
+
+.enquiryTxtBox {
+    width: 75%;
+}
+
+.submitButton {
+    align-self: center;
 }
 

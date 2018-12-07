@@ -65,7 +65,35 @@ while (i < numbers.length) {
     }
     else {
         console.log(numbers[i] + " is not an even number");
+    }   
+}
+
+var numbers_2 = [1,2,3,4,5,6,7,8,9,10];
+for (var a = 0; a < numbers_2.length; a++) {
+    console.log(numbers_2[a]);
+}
+
+var collections = [];
+console.log(collections);
+collections.push("Test", 2, "Magic");
+console.log(collections);
+collections.push("Testing");
+console.log(collections);
+
+var myCollections = [];
+function addMe() {
+    var myText = document.getElementById("myText").value;
+    myCollections.push(myText);
+    
+    document.getElementById("myResult").innerHTML = "";
+    for (var i = 0; i < myCollections.length; i++) {
+       var currValue = myCollections[i] + "<br>";
+       var currResultValue = document.getElementById("myResult").innerHTML;
+       document.getElementById("myResult").innerHTML = currResultValue + currValue;
     }
     
+    
 }
+
+
 
